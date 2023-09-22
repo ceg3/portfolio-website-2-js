@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #4c4c4c;
+  }
+
+header {
+    background-image: url("../img/pattern.jpeg");
+    height: 230px;
+    border-radius: 10px;
+}
+
+header p {font-family: Helvetica;
+    font-size: 70px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    width: 600px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main{
+    background-color: #ffffff;
+    border: 2px;
+    border-color: blue;
+    border-style: solid;
+}
+
+main section{
+    display: inline-block;
+    width: 29%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+section ul{
+    margin: auto;
+}
+
+
+footer{
+    background-color: #7aff90;
+    padding: 20px;
+}
